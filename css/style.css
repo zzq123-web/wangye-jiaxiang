@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.banner {
+
+    height: 500px;
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: 50% 45%;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background: #4A7A9F;
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+
+}
+
+.nav ul {
+    list-style: none;
+    height: 100%;
+}
+
+.nav ul li {
+    width: 16.66666%;   
+    text-align: center;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: bold;
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slogan{
+    background-color:white1;
+    color:black;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:4em;
+    font-size:larger;
+    font-weight:bolder;
+    font-style:italic;
+    background-image:url(https://tse1-mm.cn.bing.net/th/id/OIP-C.Ma73yUD9Duc6KfW5P4TAEQHaDt?w=270&h=175&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.product{
+    display:flex;
+    background-color:white;
+    justify-content: space-between;
+    padding: 100px 100px 80px;
+}
+.product div{
+    width:100px;
+    text-align: center;
+}
+.product img{
+    width:200px;height:auto;
+    border-radius: 10px;
+}
+.product h3{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin:20px 0;
+}
+.product p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.lishi {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.lishi p {
+    line-height: 26px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.lishi span {
+    display: block;
+    background: #FF0000;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+
+.lishi.item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.lishi .item .left {
+    width: 40%;
+    float: left;
+}
+
+.lishi .item .left img {
+    width: 100%;
+    height: 300px;
+}
+
+.lishi .item .right {
+    width: 50%;
+    float: right;
+}
+
+.lishi .item .right img {
+    width: 100%;
+    height: 300px;
+}
+
+.xinshang {
+    width: 100%;
+
+
+}
+
+.xinshang {
+    padding: 20px;
+}
+
+
+.xinshang h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #FF0000;
+}
+
+.imgs {
+    margin-top: 30px;
+}
+
+.imgs img {
+    width: 32%;
+    height: 350px;
+    margin-right: 1%
+}
+
+.meishi {
+    margin-top: 80px;
+}
+
+.meishi .item {
+    width: 32%;
+    float: left;
+    margin-right: 1%; 
+}
+
+.meishi .item img {
+    width: 100%;
+    height: 300px;
+}
+
+.meishi .item p {
+    line-height: 40px;
+}
+
+
+
+.left img {
+    float:left;
+    margin-right: 10px;
+}
+
+
+.mstitle {
+    text-align: center;
+    font-size: 25px;
+    color: #FF0000;
+    padding: 30px;
+}
+
+.jingqu {
+    margin-top: 50px;
+}
+
+.jingqu .left {
+    width: 48%;
+    float: left;
+
+}
+
+.jingqu .left h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.jingqu .left p {
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+.jingqu .right {
+    width: 50%;
+    float: right;
+}
+
+.jingqu .right image {
+    width: 200%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.fenbu{
+    display:flex;
+    align-items:center;}
+.fenbu.itm img{
+    margin-right: 20px;
+    transform: scale(0.6);
+}
+
+.jdtitle {
+    border-left: 5px solid #FF0000;
+    padding-left: 10px;
+    margin-top: 60px;
+    color:#FF0000;
+    font-size: larger;
+    font-style: italic;
+}
+
+.jingqu2 {
+    margin-top: 30px;
+  
+}
+
+.jingqu2 .item {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    height: 400px;
+
+}
+
+.jingqu2 .item img {
+    width: 100%;
+    height: 260px;
+}
+
+.jingqu2 .item p {
+    line-height: 30px;
+}
+
+.jingqu2 .item .stitle {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.jingqu2 .item>div {
+    margin-top: 10px;
+
+}
+
+
+
+.wenhua h3 {
+    border-left: 5px solid #FF0000;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.wenhua .left {
+    width: 60%;
+    float: left;
+
+}
+
+.wenhua .left .item {
+
+    margin-top: 30px;
+
+}
+
+.wenhua .left .item p {
+    line-height: 34px;
+    height: 230px;
+}
+
+.wenhua .left .item .c1 {
+    width: 40%;
+    float: left;
+
+}
+
+.wenhua .left .item .c1 img {
+    width: 100%;
+    height: 230px;
+}
+
+.wenhua .left .item .c2 {
+    width: 58%;
+    float: right;
+}
+
+.wenhua .right {
+    width: 33%;
+    float: right;
+}
+
+.wenhua .right p {
+    margin-top: 10px;
+    line-height: 42px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.wenhua .right img {
+    width: 100%;
+    height: 230px;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    border: 1px solid black;  
+    padding: 10px;  
+    text-align: left;  
+  }
+  
+  th {
+    background-color: #4A7A9F;  
+    color: white;  
+  }
+  td img {
+    width: 100px;  
+    height: 100px; 
+  }
